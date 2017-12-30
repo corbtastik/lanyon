@@ -41,13 +41,22 @@ body {
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: 'Lato', sans-serif; */
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Source Sans Pro', sans-serif; */
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Muli', sans-serif; */
+  /* font-family: 'Quattrocento Sans', sans-serif; */
+  font-family: 'Quicksand', sans-serif;
+  /* font-family: 'Inconsolata', monospace;   */
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 400;
-  color: #313131;
+  color: #FD3AA8;
   letter-spacing: -.025rem;
 }
 
@@ -97,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
-  border-bottom: 1px solid #eee;
+
 }
 .masthead-title {
   margin-top: 0;
@@ -148,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Quicksand', sans-serif;  
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #202020;
@@ -217,36 +226,36 @@ a.sidebar-nav-item:focus {
   display: block;
   padding: .25rem .75rem;
   color: #505050;
-  background-color: #fff;
+  background-color: #FD3AA8; /* start color - preclick */
   border-radius: .25rem;
   cursor: pointer;
 }
 
 .sidebar-toggle:before {
   display: inline-block;
-  width: 1rem;
+  width: .75rem;
   height: .75rem;
   content: "";
-  background-image: -webkit-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
-  background-image:    -moz-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
-  background-image:     -ms-linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
-  background-image:         linear-gradient(to bottom, #555, #555 20%, #fff 20%, #fff 40%, #555 40%, #555 60%, #fff 60%, #fff 80%, #555 80%, #555 100%);
+  background-image: -webkit-linear-gradient(to bottom, #00234F, #00234F 20%, #FD3AA8 20%, #FD3AA8 40%, #00234F 40%, #00234F 60%, #FD3AA8 60%, #FD3AA8 80%, #00234F 80%, #00234F 100%);
+  background-image:    -moz-linear-gradient(to bottom, #00234F, #00234F 20%, #FD3AA8 20%, #FD3AA8 40%, #00234F 40%, #00234F 60%, #FD3AA8 60%, #FD3AA8 80%, #00234F 80%, #00234F 100%);
+  background-image:     -ms-linear-gradient(to bottom, #00234F, #00234F 20%, #FD3AA8 20%, #FD3AA8 40%, #00234F 40%, #00234F 60%, #FD3AA8 60%, #FD3AA8 80%, #00234F 80%, #00234F 100%);
+  background-image:         linear-gradient(to bottom, #00234F, #00234F 20%, #FD3AA8 20%, #FD3AA8 40%, #00234F 40%, #00234F 60%, #FD3AA8 60%, #FD3AA8 80%, #00234F 80%, #00234F 100%);
 }
 
 .sidebar-toggle:active,
 #sidebar-checkbox:focus ~ .sidebar-toggle,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   color: #fff;
-  background-color: #555;
+  background-color: #FD3AA8; /* collapsed color */  
 }
 
 .sidebar-toggle:active:before,
 #sidebar-checkbox:focus ~ .sidebar-toggle:before,
 #sidebar-checkbox:checked ~ .sidebar-toggle:before {
-  background-image: -webkit-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
-  background-image:    -moz-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
-  background-image:     -ms-linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
-  background-image:         linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
+  background-image: -webkit-linear-gradient(to bottom, #00234F, #00234F 20%, #FD3AA8 20%, #FD3AA8 40%, #00234F 40%, #00234F 60%, #FD3AA8 60%, #FD3AA8 80%, #00234F 80%, #00234F 100%);
+  background-image:    -moz-linear-gradient(to bottom, #00234F, #00234F 20%, #FD3AA8 20%, #FD3AA8 40%, #00234F 40%, #00234F 60%, #FD3AA8 60%, #FD3AA8 80%, #00234F 80%, #00234F 100%);
+  background-image:     -ms-linear-gradient(to bottom, #00234F, #00234F 20%, #FD3AA8 20%, #FD3AA8 40%, #00234F 40%, #00234F 60%, #FD3AA8 60%, #FD3AA8 80%, #00234F 80%, #00234F 100%);
+  background-image:         linear-gradient(to bottom, #00234F, #00234F 20%, #FD3AA8 20%, #FD3AA8 40%, #00234F 40%, #00234F 60%, #FD3AA8 60%, #FD3AA8 80%, #00234F 80%, #00234F 100%);
 }
 
 @media (min-width: 30.1em) {
@@ -316,7 +325,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #FD3AA8;
 }
 .page-title,
 .post-title {
@@ -368,8 +377,8 @@ a.sidebar-nav-item:focus {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  color: #ccc;
+  font-family: 'Quicksand', sans-serif;  
+  color: #42E4CF;
   text-align: center;
 }
 
@@ -377,7 +386,7 @@ a.sidebar-nav-item:focus {
 .pagination-item {
   display: block;
   padding: 1rem;
-  border: 1px solid #eee;
+  border: 1px solid #42E4CF;
 }
 .pagination-item:first-child {
   margin-bottom: -1px;
@@ -385,7 +394,7 @@ a.sidebar-nav-item:focus {
 
 /* Only provide a hover state for linked pagination items */
 a.pagination-item:hover {
-  background-color: #f5f5f5;
+  background-color: #42E4CF;
 }
 
 @media (min-width: 30em) {
@@ -440,6 +449,19 @@ a.pagination-item:hover {
  * Apply custom color schemes by adding the appropriate class to the `body`.
  * Based on colors from Base16: http://chriskempson.github.io/base16/#default.
  */
+
+ /* Corbs Custom Styleo */
+.theme-base-13 .sidebar,
+.theme-base-13 .sidebar-toggle:active,
+.theme-base-13 #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #FD3AA8;
+  color: #00234F;
+}
+.theme-base-13 .container a,
+.theme-base-13 .sidebar-toggle,
+.theme-base-13 .related-posts li a:hover {
+  color: #FD3AA8;
+}
 
 /* Red */
 .theme-base-08 .sidebar,
