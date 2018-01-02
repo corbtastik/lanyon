@@ -1,0 +1,12 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import 'poole';
+@import 'syntax';
+@import 'lanyon';
+
+img {
+  display: inline-block;
+}
